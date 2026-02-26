@@ -1,0 +1,55 @@
+/* ---- Global background ---- */
+body {
+  background-color: #121212;   /* near black */
+  color: #d6d6d6;              /* soft gray text */
+}
+
+/* ---- Main content area ---- */
+.container-fluid {
+  background-color: #121212;
+}
+
+/* ---- Links ---- */
+a {
+  color: #8ab4f8;   /* muted blue */
+}
+
+a:hover {
+  color: #a6c8ff;
+}
+
+/* ---- Headings ---- */
+h1, h2, h3, h4, h5 {
+  color: #e4e4e4;
+}
+
+/* ---- Navbar (top banner) ---- */
+.navbar {
+  background-color: #2a2a2a !important;  /* dark gray banner */
+  border-color: #2a2a2a;
+}
+
+/* Site title */
+.navbar-brand {
+  color: #f0f0f0 !important;
+}
+
+/* Nav links */
+.navbar-nav > li > a {
+  color: #d0d0d0 !important;
+}
+
+.navbar-nav > li > a:hover {
+  color: #ffffff !important;
+}
+
+/* ---- Footer ---- */
+footer {
+  background-color: #121212;
+  color: #9a9a9a;
+}
+
+/* ---- Horizontal rules ---- */
+hr {
+  border-top: 1px solid #333;
+}
