@@ -6,32 +6,41 @@ permalink: /publications/
 
 # Publications
 
-{% assign articles = site.data.publist | where: "type", "article" %}
-{% assign preprints = site.data.publist | where: "type", "preprint" %}
+{% assign pubs_sorted = site.data.publist | sort: "year" | reverse %}
 
 ## Peer-reviewed Articles
-
-{% for pub in articles %}
-<div style="margin-bottom: 1.2em;">
+{% for pub in pubs_sorted %}
+{% if pub.type == "article" %}
+<div style="margin-bottom: 1.1em;">
   <strong>{{ pub.title }}</strong><br>
   {{ pub.authors }}<br>
-  <em>{{ pub.journal }}</em>, {{ pub.year }}.<br>
-  {% if pub.doi != "" %}
-    DOI: <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>
+  <em>{{ pub.journal }}</em> ({{ pub.year }})
+  {% if pub.doi and pub.doi != "" %}
+    — DOI: <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>
   {% endif %}
-  {% if pub.url %}
-    <a href="{{ pub.url }}">[Link]</a>
+  {% if pub.url and pub.url != "" %}
+    — <a href="{{ pub.url }}">Publisher link</a>
+  {% endif %}
+  {% if pub.pdf and pub.pdf != "" %}
+    — <a href="{{ site.baseurl }}{{ pub.pdf }}">PDF</a>
   {% endif %}
 </div>
+{% endif %}
 {% endfor %}
 
-## Preprints
-
-{% for pub in preprints %}
-<div style="margin-bottom: 1.2em;">
+## Conference Abstracts
+{% for pub in pubs_sorted %}
+{% if pub.type == "abstract" %}
+<div style="margin-bottom: 1.1em;">
   <strong>{{ pub.title }}</strong><br>
   {{ pub.authors }}<br>
-  <em>{{ pub.journal }}</em>, {{ pub.year }}.<br>
-  <a href="{{ pub.url }}">[Link]</a>
+  <em>{{ pub.journal }}</em> ({{ pub.year }})
+  {% if pub.url and pub.url != "" %}
+    — <a href="{{ pub.url }}">Link</a>
+  {% endif %}
+  {% if pub.pdf and pub.pdf != "" %}
+    — <a href="{{ site.baseurl }}{{ pub.pdf }}">PDF</a>
+  {% endif %}
 </div>
+{% endif %}
 {% endfor %}
