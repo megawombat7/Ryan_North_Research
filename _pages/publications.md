@@ -1,26 +1,37 @@
 ---
 title: "Publications"
 layout: textlay
-sitemap: false
 permalink: /publications/
 ---
 
 # Publications
 
-## Peer-reviewed
-- **[Your first paper title]**  
-  *Ryan North, Coauthor, Coauthor*  
-  *Journal* (Year). DOI: xxx
+{% assign articles = site.data.publist | where: "type", "article" %}
+{% assign preprints = site.data.publist | where: "type", "preprint" %}
 
-- **[Your second paper title]**  
-  *Ryan North, Coauthor*  
-  *Journal* (Year). DOI: xxx
+## Peer-reviewed Articles
+
+{% for pub in articles %}
+<div style="margin-bottom: 1.2em;">
+  <strong>{{ pub.title }}</strong><br>
+  {{ pub.authors }}<br>
+  <em>{{ pub.journal }}</em>, {{ pub.year }}.<br>
+  {% if pub.doi != "" %}
+    DOI: <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>
+  {% endif %}
+  {% if pub.url %}
+    <a href="{{ pub.url }}">[Link]</a>
+  {% endif %}
+</div>
+{% endfor %}
 
 ## Preprints
-- **[Preprint title]**  
-  *Ryan North, Coauthor*  
-  *bioRxiv* (Year). Link: xxx
 
-## Conference abstracts
-- **[Abstract title]**  
-  *Conference / Society* (Year).
+{% for pub in preprints %}
+<div style="margin-bottom: 1.2em;">
+  <strong>{{ pub.title }}</strong><br>
+  {{ pub.authors }}<br>
+  <em>{{ pub.journal }}</em>, {{ pub.year }}.<br>
+  <a href="{{ pub.url }}">[Link]</a>
+</div>
+{% endfor %}
