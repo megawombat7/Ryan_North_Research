@@ -53,6 +53,8 @@ I gravitate toward rivers most — reading seams, covering miles of water, and c
 
 <hr>
 
+<hr>
+
 ## Lakes
 
 Stillwater fishing brings a slower pace — long casts, clear water, and incredible alpine settings.
@@ -63,6 +65,12 @@ Stillwater fishing brings a slower pace — long casts, clear water, and incredi
   </div>
   <div class="col-sm-4">
     <img src="{{ site.baseurl }}/assets/fishing/Lakes/close_up_mountain_lake_cutthroat.jpg" class="img-responsive img-rounded zoomable" alt="Lake fishing photo">
+  </div>
+  <div class="col-sm-4">
+    <img src="{{ site.baseurl }}/assets/fishing/Lakes/me_on_blue_raft_rainbow.jpg" class="img-responsive img-rounded zoomable" alt="Lake fishing photo">
+  </div>
+  <div class="col-sm-4">
+    <img src="{{ site.baseurl }}/assets/fishing/Lakes/more_raft_rainbows.jpg" class="img-responsive img-rounded zoomable" alt="Lake fishing photo">
   </div>
 </div>
 
