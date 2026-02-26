@@ -53,3 +53,36 @@ footer {
 hr {
   border-top: 1px solid #333;
 }
+
+/* Publications styling */
+
+.pub-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1.5rem;
+}
+
+.pub-list li {
+  margin-bottom: 1.6rem;
+  line-height: 1.6;
+  color: #ddd;
+}
+
+.pub-list strong {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.pub-list em {
+  color: #aaa;
+  font-style: italic;
+}
+
+.pub-list a {
+  color: #9ecbff;
+  text-decoration: none;
+}
+
+.pub-list a:hover {
+  text-decoration: underline;
+}
