@@ -8,36 +8,29 @@ permalink: /publications/
 
 {% assign pubs_sorted = site.data.publist | sort: "year" | reverse %}
 
-{% assign pubs_sorted = site.data.publist | sort: "year" | reverse %}
-
 ## Peer-reviewed Articles
 {% for pub in pubs_sorted %}
 {% if pub.type == "article" %}
-<div class="pub-entry">
 
-<strong>{{ pub.title }}</strong><br>
-{{ pub.authors }}<br>
-<em>{{ pub.journal }}</em> ({{ pub.year }})
+### {{ pub.title }}
 
-{% if pub.doi %}
- — <a href="https://doi.org/{{ pub.doi }}" target="_blank">DOI</a>
-{% endif %}
-
-{% if pub.url %}
- — <a href="{{ pub.url }}" target="_blank">Publisher Link</a>
-{% endif %}
+{{ pub.authors }}  
+*{{ pub.journal }}* ({{ pub.year }})  
+{% if pub.doi and pub.doi != "" %}[DOI](https://doi.org/{{ pub.doi }}){% endif %}{% if pub.url and pub.url != "" %} · [Publisher link]({{ pub.url }}){% endif %}
 
 {% if pub.abstract and pub.abstract != "" %}
-<details class="pub-abstract">
-  <summary>Abstract</summary>
-  <p>{{ pub.abstract }}</p>
+<details markdown="1">
+<summary><strong>Abstract</strong></summary>
+
+{{ pub.abstract }}
+
 </details>
 {% endif %}
 
-</div>
+---
+
 {% endif %}
 {% endfor %}
-
 ## Conference Abstracts
 <ul class="pub-list">
 {% for pub in pubs_sorted %}
