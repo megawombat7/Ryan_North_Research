@@ -15,15 +15,15 @@ From drifting western rivers to hiking into alpine lakes or drilling through win
 
 A few snapshots from days that were as memorable for the places as for the fish.
 
-<div class="row">
+<div markdown="0" class="row">
   <div class="col-sm-4">
-    <img src="{{ site.baseurl }}/assets/fishing/me/front_me_fishing.jpg" class="img-responsive img-rounded">
+    <img src="{{ site.baseurl }}/assets/fishing/me/front_me_fishing.jpg" class="img-responsive img-rounded" alt="Fishing photo">
   </div>
   <div class="col-sm-4">
-    <img src="{{ site.baseurl }}/assets/fishing/me/me_fishing.jpg" class="img-responsive img-rounded">
+    <img src="{{ site.baseurl }}/assets/fishing/me/me_fishing.jpg" class="img-responsive img-rounded" alt="Fishing photo">
   </div>
   <div class="col-sm-4">
-    <img src="{{ site.baseurl }}/assets/fishing/me/raft.jpg" class="img-responsive img-rounded">
+    <img src="{{ site.baseurl }}/assets/fishing/me/raft.jpg" class="img-responsive img-rounded" alt="Fishing photo">
   </div>
 </div>
 
@@ -33,21 +33,21 @@ A few snapshots from days that were as memorable for the places as for the fish.
 
 I gravitate toward rivers most — reading seams, covering miles of water, and chasing trout in constantly changing conditions.
 
-<div class="row">
+<div markdown="0" class="row">
   <div class="col-sm-4">
-    <img src="{{ site.baseurl }}/assets/fishing/Rivers/big_jaw_river_rainbow_dark.jpg" class="img-responsive img-rounded">
+    <img src="{{ site.baseurl }}/assets/fishing/Rivers/big_jaw_river_rainbow_dark.jpg" class="img-responsive img-rounded" alt="River fishing photo">
   </div>
   <div class="col-sm-4">
-    <img src="{{ site.baseurl }}/assets/fishing/Rivers/bright_colored_cutthroat.jpg" class="img-responsive img-rounded">
+    <img src="{{ site.baseurl }}/assets/fishing/Rivers/bright_colored_cutthroat.jpg" class="img-responsive img-rounded" alt="River fishing photo">
   </div>
   <div class="col-sm-4">
-    <img src="{{ site.baseurl }}/assets/fishing/Rivers/gallatin_canyon.jpg" class="img-responsive img-rounded">
+    <img src="{{ site.baseurl }}/assets/fishing/Rivers/gallatin_canyon.jpg" class="img-responsive img-rounded" alt="River fishing photo">
   </div>
   <div class="col-sm-4">
-    <img src="{{ site.baseurl }}/assets/fishing/Rivers/river_brown.jpg" class="img-responsive img-rounded">
+    <img src="{{ site.baseurl }}/assets/fishing/Rivers/river_brown.jpg" class="img-responsive img-rounded" alt="River fishing photo">
   </div>
   <div class="col-sm-4">
-    <img src="{{ site.baseurl }}/assets/fishing/Rivers/river_rainbow.jpg" class="img-responsive img-rounded">
+    <img src="{{ site.baseurl }}/assets/fishing/Rivers/river_rainbow.jpg" class="img-responsive img-rounded" alt="River fishing photo">
   </div>
 </div>
 
@@ -57,12 +57,12 @@ I gravitate toward rivers most — reading seams, covering miles of water, and c
 
 Stillwater fishing brings a slower pace — long casts, clear water, and incredible alpine settings.
 
-<div class="row">
+<div markdown="0" class="row">
   <div class="col-sm-4">
-    <img src="{{ site.baseurl }}/assets/fishing/Lakes/IMG_20250824_112216.jpg" class="img-responsive img-rounded">
+    <img src="{{ site.baseurl }}/assets/fishing/Lakes/IMG_20250824_112216.jpg" class="img-responsive img-rounded" alt="Lake fishing photo">
   </div>
   <div class="col-sm-4">
-    <img src="{{ site.baseurl }}/assets/fishing/Lakes/close_up_mountain_lake_cutthroat.jpg" class="img-responsive img-rounded">
+    <img src="{{ site.baseurl }}/assets/fishing/Lakes/close_up_mountain_lake_cutthroat.jpg" class="img-responsive img-rounded" alt="Lake fishing photo">
   </div>
 </div>
 
@@ -72,11 +72,11 @@ Stillwater fishing brings a slower pace — long casts, clear water, and incredi
 
 When winter sets in, the fishing just changes format — quieter, colder, and just as rewarding.
 
-<div class="row">
+<div markdown="0" class="row">
   <div class="col-sm-4">
-    <img src="{{ site.baseurl }}/assets/fishing/ice_fishing/Ice_Fishing_Hole.jpg" class="img-responsive img-rounded">
+    <img src="{{ site.baseurl }}/assets/fishing/ice_fishing/Ice_Fishing_Hole.jpg" class="img-responsive img-rounded" alt="Ice fishing photo">
   </div>
   <div class="col-sm-4">
-    <img src="{{ site.baseurl }}/assets/fishing/ice_fishing/ice_fishing_dark_rainbows.jpg" class="img-responsive img-rounded">
+    <img src="{{ site.baseurl }}/assets/fishing/ice_fishing/ice_fishing_dark_rainbows.jpg" class="img-responsive img-rounded" alt="Ice fishing photo">
   </div>
 </div>
