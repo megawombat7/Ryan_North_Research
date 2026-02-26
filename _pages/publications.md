@@ -20,8 +20,10 @@ permalink: /publications/
 
 {% if pub.abstract and pub.abstract != "" %}
 <details class="pub-abstract">
-  <summary><strong>Abstract</strong></summary>
-  <p>{{ pub.abstract }}</p>
+  <summary>Abstract</summary>
+  <div class="pub-abstract-body">
+    <p>{{ pub.abstract | escape }}</p>
+  </div>
 </details>
 {% endif %}
 
