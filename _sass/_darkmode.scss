@@ -111,3 +111,40 @@ hr {
   line-height: 1.5;
   color: #d0d0d0;
 }
+
+/* Image zoom modal */
+
+.img-modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.92);
+  justify-content: center;
+  align-items: center;
+}
+
+.img-modal-content {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 8px;
+  box-shadow: 0 0 40px rgba(0,0,0,0.6);
+}
+
+.img-close {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.zoomable {
+  cursor: zoom-in;
+  transition: transform 0.2s ease;
+}
+
+.zoomable:hover {
+  transform: scale(1.03);
+}
