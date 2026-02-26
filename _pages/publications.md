@@ -19,11 +19,9 @@ permalink: /publications/
 {% if pub.doi and pub.doi != "" %}[DOI](https://doi.org/{{ pub.doi }}){% endif %}{% if pub.url and pub.url != "" %} · [Publisher link]({{ pub.url }}){% endif %}
 
 {% if pub.abstract and pub.abstract != "" %}
-<details markdown="1">
-<summary><strong>Abstract</strong></summary>
-
-{{ pub.abstract }}
-
+<details class="pub-abstract">
+  <summary><strong>Abstract</strong></summary>
+  <p>{{ pub.abstract }}</p>
 </details>
 {% endif %}
 
