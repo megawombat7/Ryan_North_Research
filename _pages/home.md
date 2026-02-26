@@ -21,5 +21,5 @@ RNA-seq analysis, comparative literature synthesis, trait-matrix/phylogenetic vi
 ## Contact
 Email: ryanjamesnorth@gmail.com
 GitHub: https://github.com/megawombat7  
-https://scholar.google.com/citations?user=nEZWye0AAAAJ&hl=en
-https://orcid.org/0009-0008-8948-5572
+Google Scholar: https://scholar.google.com/citations?user=nEZWye0AAAAJ&hl=en
+ORCID: https://orcid.org/0009-0008-8948-5572
