@@ -91,15 +91,35 @@ hr {
   margin-bottom: 1.6em;
 }
 
+/* ---- Publications Abstract Styling ---- */
+
 .pub-abstract {
-  margin-top: 0.4em;
+  margin-top: 0.6em;
+  padding: 0.4em 0;
 }
 
 .pub-abstract summary {
   cursor: pointer;
   color: #9ecbff;
-  font-weight: 500;
+  font-weight: 600;
   outline: none;
+  list-style: none;
+  transition: color 0.2s ease;
+}
+
+.pub-abstract summary::-webkit-details-marker {
+  display: none;
+}
+
+.pub-abstract summary::before {
+  content: "▸";
+  display: inline-block;
+  margin-right: 0.5em;
+  transition: transform 0.2s ease;
+}
+
+.pub-abstract[open] summary::before {
+  transform: rotate(90deg);
 }
 
 .pub-abstract summary:hover {
@@ -107,8 +127,12 @@ hr {
 }
 
 .pub-abstract p {
-  margin-top: 0.5em;
-  line-height: 1.5;
+  margin-top: 0.8em;
+  padding: 0.8em 1em;
+  background-color: #1b1b1b;
+  border-left: 3px solid #9ecbff;
+  border-radius: 6px;
+  line-height: 1.6;
   color: #d0d0d0;
 }
 
