@@ -19,6 +19,7 @@ I’m Ryan North, a Research Fellow in Dr. Chris Organ’s lab at Montana State 
 RNA-seq analysis, comparative literature synthesis, trait-matrix/phylogenetic visualization, and hypothesis-driven review + framework building.
 
 ## Contact
-Email: your.email@domain.com  
+Email: ryanjamesnorth@gmail.com
 GitHub: https://github.com/megawombat7  
-(Optional) Google Scholar / ORCID / LinkedIn links
+https://scholar.google.com/citations?user=nEZWye0AAAAJ&hl=en
+https://orcid.org/0009-0008-8948-5572
