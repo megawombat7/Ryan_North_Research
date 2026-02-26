@@ -86,3 +86,28 @@ hr {
 .pub-list a:hover {
   text-decoration: underline;
 }
+
+.pub-entry {
+  margin-bottom: 1.6em;
+}
+
+.pub-abstract {
+  margin-top: 0.4em;
+}
+
+.pub-abstract summary {
+  cursor: pointer;
+  color: #9ecbff;
+  font-weight: 500;
+  outline: none;
+}
+
+.pub-abstract summary:hover {
+  color: #cfe6ff;
+}
+
+.pub-abstract p {
+  margin-top: 0.5em;
+  line-height: 1.5;
+  color: #d0d0d0;
+}
