@@ -91,48 +91,46 @@ hr {
   margin-bottom: 1.6em;
 }
 
-/* ---- Publications Abstract Styling ---- */
-
+/* Collapsible abstract (clean) */
 .pub-abstract {
-  margin-top: 0.6em;
-  padding: 0.4em 0;
+  margin-top: 0.6rem;
+  border: none;
+  background: transparent;
 }
 
 .pub-abstract summary {
+  list-style: none;            /* removes default triangle in some browsers */
   cursor: pointer;
+  display: inline-block;
   color: #9ecbff;
   font-weight: 600;
-  outline: none;
-  list-style: none;
-  transition: color 0.2s ease;
+  padding: 0.25rem 0;
 }
 
 .pub-abstract summary::-webkit-details-marker {
-  display: none;
+  display: none;               /* removes default triangle in Chrome/Safari */
 }
 
 .pub-abstract summary::before {
-  content: "▸";
-  display: inline-block;
-  margin-right: 0.5em;
-  transition: transform 0.2s ease;
+  content: "▸ ";
+  color: #9ecbff;
 }
 
 .pub-abstract[open] summary::before {
-  transform: rotate(90deg);
+  content: "▾ ";
 }
 
-.pub-abstract summary:hover {
-  color: #cfe6ff;
+.pub-abstract-body {
+  margin-top: 0.5rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid #2a2a2a;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.03);
 }
 
-.pub-abstract p {
-  margin-top: 0.8em;
-  padding: 0.8em 1em;
-  background-color: #1b1b1b;
-  border-left: 3px solid #9ecbff;
-  border-radius: 6px;
-  line-height: 1.6;
+.pub-abstract-body p {
+  margin: 0;
+  line-height: 1.55;
   color: #d0d0d0;
 }
 
