@@ -12,20 +12,34 @@ permalink: /publications/
 {% for pub in pubs_sorted %}
 {% if pub.type == "article" %}
 
-### {{ pub.title }}
+<div class="pub-entry">
+  <h3 class="pub-title">{{ pub.title }}</h3>
 
-{{ pub.authors }}  
-*{{ pub.journal }}* ({{ pub.year }})  
-{% if pub.doi and pub.doi != "" %}[DOI](https://doi.org/{{ pub.doi }}){% endif %}{% if pub.url and pub.url != "" %} · [Publisher link]({{ pub.url }}){% endif %}
-
-{% if pub.abstract and pub.abstract != "" %}
-<details class="pub-abstract">
-  <summary>Abstract</summary>
-  <div class="pub-abstract-body">
-    {{ pub.abstract | strip | markdownify }}
+  <div class="pub-meta">
+    {{ pub.authors }}<br>
+    <em>{{ pub.journal }}</em> ({{ pub.year }})<br>
+    <span class="pub-links">
+      {% if pub.doi and pub.doi != "" %}<a href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener">DOI</a>{% endif %}
+      {% if pub.url and pub.url != "" %}{% if pub.doi and pub.doi != "" %} · {% endif %}<a href="{{ pub.url }}" target="_blank" rel="noopener">Publisher link</a>{% endif %}
+      {% if pub.pdf and pub.pdf != "" %}{% if (pub.doi and pub.doi != "") or (pub.url and pub.url != "") %} · {% endif %}<a href="{{ site.baseurl }}{{ pub.pdf }}" target="_blank" rel="noopener">PDF</a>{% endif %}
+    </span>
   </div>
-</details>
+
+  {% if pub.abstract and pub.abstract != "" %}
+    <a class="pub-abstract-toggle" data-toggle="collapse" href="#abs-{{ forloop.index }}" role="button" aria-expanded="false" aria-controls="abs-{{ forloop.index }}">
+      Abstract
+    </a>
+
+    <div class="collapse pub-abstract-body" id="abs-{{ forloop.index }}">
+      <p>{{ pub.abstract }}</p>
+    </div>
+  {% endif %}
+</div>
+
+<div class="section-divider"></div>
+
 {% endif %}
+{% endfor %}
 
 ---
 
