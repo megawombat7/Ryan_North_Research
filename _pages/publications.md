@@ -15,11 +15,23 @@ permalink: /publications/
 {% for pub in pubs_sorted %}
 {% if pub.type == "article" %}
 
+{% assign thumb_src = pub.thumb %}
+
+{%- comment -%}
+Quick fallback: if this specific paper doesn't have pub.thumb set in publist.yml,
+use the new image you just uploaded.
+{%- endcomment -%}
+{% if thumb_src == nil or thumb_src == "" %}
+  {% if pub.title == "Differential Metabolic Changes in Zebrafish Embryos Are Induced by Discontinued Citalopram Exposure" %}
+    {% assign thumb_src = "/assets/pubs/Differential Metabolic Changes in Zebrafish Embryos Are Induced by Discontinued Citalopram Exposure.jpg" %}
+  {% endif %}
+{% endif %}
+
 <div class="pub-item">
 
-  {% if pub.thumb %}
+  {% if thumb_src and thumb_src != "" %}
   <div class="pub-thumb">
-    <img src="{{ pub.thumb | relative_url }}" alt="Publication figure">
+    <img src="{{ thumb_src | relative_url }}" alt="Publication figure">
   </div>
   {% endif %}
 
@@ -71,11 +83,13 @@ permalink: /publications/
 {% for pub in pubs_sorted %}
 {% if pub.type == "abstract" %}
 
+{% assign thumb_src = pub.thumb %}
+
 <div class="pub-item">
 
-  {% if pub.thumb %}
+  {% if thumb_src and thumb_src != "" %}
   <div class="pub-thumb">
-    <img src="{{ pub.thumb | relative_url }}" alt="Publication figure">
+    <img src="{{ thumb_src | relative_url }}" alt="Publication figure">
   </div>
   {% endif %}
 
