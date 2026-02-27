@@ -14,7 +14,7 @@ permalink: /fishing/
   </p>
 </div>
 
-{% assign exts = "jpg,jpeg,png,webp" | split: "," %}
+{% assign exts = ".jpg,.jpeg,.png,.webp" | split: "," %}
 
 {% comment %} ---------- ME ---------- {% endcomment %}
 <section class="gallery-section">
@@ -22,13 +22,13 @@ permalink: /fishing/
   <p class="section-subtitle">A few snapshots from days that were as memorable for the places as for the fish.</p>
 
   {% assign me_imgs = site.static_files | where_exp: "f", "f.path contains '/assets/fishing/me/'" %}
-  {% assign me_imgs = me_imgs | where_exp: "f", "exts contains f.extname | remove: '.' | downcase" %}
+  {% assign me_imgs = me_imgs | where_exp: "f", "exts contains f.extname" %}
   {% assign me_imgs = me_imgs | sort: "name" %}
 
   <div class="gallery-grid" markdown="0">
     {% for img in me_imgs %}
-      <button class="gallery-item zoomable" type="button" data-full="{{ site.baseurl }}{{ img.path }}">
-        <img src="{{ site.baseurl }}{{ img.path }}" alt="Fishing photo">
+      <button class="gallery-item zoomable" type="button" data-full="{{ img.path | relative_url }}">
+        <img src="{{ img.path | relative_url }}" alt="Fishing photo">
       </button>
     {% endfor %}
   </div>
@@ -42,18 +42,19 @@ permalink: /fishing/
   <p class="section-subtitle">I gravitate toward rivers most — reading seams, covering miles of water, and chasing trout in constantly changing conditions.</p>
 
   {% assign river_imgs = site.static_files | where_exp: "f", "f.path contains '/assets/fishing/Rivers/'" %}
-  {% assign river_imgs = river_imgs | where_exp: "f", "exts contains f.extname | remove: '.' | downcase" %}
+  {% assign river_imgs = river_imgs | where_exp: "f", "exts contains f.extname" %}
   {% assign river_imgs = river_imgs | sort: "name" %}
 
   <div class="gallery-grid" markdown="0">
     {% for img in river_imgs %}
-      <button class="gallery-item zoomable" type="button" data-full="{{ site.baseurl }}{{ img.path }}">
-        <img src="{{ site.baseurl }}{{ img.path }}" alt="River fishing photo">
+      <button class="gallery-item zoomable" type="button" data-full="{{ img.path | relative_url }}">
+        <img src="{{ img.path | relative_url }}" alt="River fishing photo">
       </button>
     {% endfor %}
   </div>
 </section>
 
+<hr>
 
 {% comment %} ---------- LAKES ---------- {% endcomment %}
 <section class="gallery-section">
@@ -61,13 +62,13 @@ permalink: /fishing/
   <p class="section-subtitle">Stillwater fishing brings a slower pace — long casts, clear water, and incredible alpine settings.</p>
 
   {% assign lake_imgs = site.static_files | where_exp: "f", "f.path contains '/assets/fishing/Lakes/'" %}
-  {% assign lake_imgs = lake_imgs | where_exp: "f", "exts contains f.extname | remove: '.' | downcase" %}
+  {% assign lake_imgs = lake_imgs | where_exp: "f", "exts contains f.extname" %}
   {% assign lake_imgs = lake_imgs | sort: "name" %}
 
   <div class="gallery-grid" markdown="0">
     {% for img in lake_imgs %}
-      <button class="gallery-item zoomable" type="button" data-full="{{ site.baseurl }}{{ img.path }}">
-        <img src="{{ site.baseurl }}{{ img.path }}" alt="Lake fishing photo">
+      <button class="gallery-item zoomable" type="button" data-full="{{ img.path | relative_url }}">
+        <img src="{{ img.path | relative_url }}" alt="Lake fishing photo">
       </button>
     {% endfor %}
   </div>
@@ -81,13 +82,13 @@ permalink: /fishing/
   <p class="section-subtitle">When winter sets in, the fishing just changes format — quieter, colder, and just as rewarding.</p>
 
   {% assign ice_imgs = site.static_files | where_exp: "f", "f.path contains '/assets/fishing/ice_fishing/'" %}
-  {% assign ice_imgs = ice_imgs | where_exp: "f", "exts contains f.extname | remove: '.' | downcase" %}
+  {% assign ice_imgs = ice_imgs | where_exp: "f", "exts contains f.extname" %}
   {% assign ice_imgs = ice_imgs | sort: "name" %}
 
   <div class="gallery-grid" markdown="0">
     {% for img in ice_imgs %}
-      <button class="gallery-item zoomable" type="button" data-full="{{ site.baseurl }}{{ img.path }}">
-        <img src="{{ site.baseurl }}{{ img.path }}" alt="Ice fishing photo">
+      <button class="gallery-item zoomable" type="button" data-full="{{ img.path | relative_url }}">
+        <img src="{{ img.path | relative_url }}" alt="Ice fishing photo">
       </button>
     {% endfor %}
   </div>
