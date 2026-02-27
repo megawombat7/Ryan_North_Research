@@ -54,7 +54,6 @@ permalink: /fishing/
   </div>
 </section>
 
-<hr>
 
 {% comment %} ---------- LAKES ---------- {% endcomment %}
 <section class="gallery-section">
