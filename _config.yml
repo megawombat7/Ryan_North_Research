@@ -14,6 +14,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Website of Ryan North
 url: "https://megawombat7.github.io"
 baseurl: "/Ryan_North_Research"
+permalink: pretty
 
 include:
   - .htaccess
