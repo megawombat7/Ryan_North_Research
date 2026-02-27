@@ -21,6 +21,7 @@
   doi: "10.3390/ijms262311288"
   url: "https://doi.org/10.3390/ijms262311288"
   type: "article"
+  thumb: "/assets/pubs/Persistent and Dose-Dependent Neural and Metabolic Gene Expression Changes Induced by Transient Citalopram Exposure in Zebrafish Embryos.jpg"
   abstract: |
     Citalopram, a common selective serotonin reuptake inhibitor (SSRI), has been increasingly detected in aquatic environments due to ineffective removal and improper disposal. Although developmental exposure to SSRIs is linked to neurotoxicity, little is known about the persistence of gene expression alterations following limited exposure periods.
     
@@ -37,6 +38,7 @@
   doi: "10.3390/ijms26104840"
   url: "https://doi.org/10.3390/ijms26104840"
   type: "article"
+  thumb: "/assets/pubs/Persistent Transcriptome Alterations in Zebrafish Embryos After Discontinued Opioid Exposure.jpg"
   abstract: |
     Much attention has been paid to the public health crisis that has resulted from the opioid epidemic. Given the high number of opioid users that are of childbearing age, the impact of utero exposure is a serious concern. Unfortunately, there is little knowledge regarding the consequences of opioid exposure during early development. While neurobehavioral effects of opioid exposure are well-documented, effects of exposure on embryogenesis remain largely unexplored.
     
@@ -55,6 +57,7 @@
   doi: "10.3390/ijms26031050"
   url: "https://doi.org/10.3390/ijms26031050"
   type: "article"
+  thumb: "/assets/pubs/Persistent Metabolic Changes Are Induced by 24 h Low-Dose Lead (Pb) Exposure in Zebrafish Embryos.jpg"
   abstract: |
     Lead (Pb) is a heavy metal associated with a range of toxic effects. Relatively few studies attempt to understand the impact of lead on development from a mechanistic perspective. Danio rerio (zebrafish) embryos are a model organism for studying the developmental consequences of exposure to chemical agents.
     
@@ -71,6 +74,7 @@
   doi: "10.1021/acs.jproteome.3c00853"
   url: "https://doi.org/10.1021/acs.jproteome.3c00853"
   type: "article"
+  thumb: "/assets/pubs/Global Proteomic Analysis Reveals Alterations in Differentially Expressed Proteins between Cardiopathic Lamin AC Mutations.gif"
   abstract: |
     Lamin A/C (LMNA) is an important component of nuclear lamina. Mutations cause arrhythmia, heart failure, and sudden cardiac death. While LMNA-associated cardiomyopathy typically has an aggressive course that responds poorly to conventional heart failure therapies, there is variability in severity and age of penetrance between and even within specific mutations, which is poorly understood at the cellular level.
     
