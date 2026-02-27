@@ -22,7 +22,7 @@ permalink: /publications/
 <details class="pub-abstract">
   <summary>Abstract</summary>
   <div class="pub-abstract-body">
-    <p>{{ pub.abstract | escape }}</p>
+    {{ pub.abstract | strip | markdownify }}
   </div>
 </details>
 {% endif %}
