@@ -91,49 +91,53 @@ hr {
   margin-bottom: 1.6em;
 }
 
-/* Collapsible abstract (clean) */
+/* Publications: collapsible abstracts */
+
 .pub-abstract {
-  margin-top: 0.6rem;
-  border: none;
-  background: transparent;
+  margin-top: 0.8rem;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px;
+  background: rgba(255,255,255,0.03);
+  padding: 0.2rem 0.75rem;
 }
 
 .pub-abstract summary {
-  list-style: none;            /* removes default triangle in some browsers */
   cursor: pointer;
-  display: inline-block;
+  list-style: none; /* helps hide default marker in some browsers */
   color: #9ecbff;
   font-weight: 600;
-  padding: 0.25rem 0;
+  padding: 0.55rem 0.25rem;
+  outline: none;
+}
+
+.pub-abstract summary:hover {
+  color: #cfe6ff;
 }
 
 .pub-abstract summary::-webkit-details-marker {
-  display: none;               /* removes default triangle in Chrome/Safari */
+  display: none;
 }
 
 .pub-abstract summary::before {
-  content: "▸ ";
-  color: #9ecbff;
+  content: "▸";
+  display: inline-block;
+  margin-right: 0.5rem;
+  transform: translateY(-1px);
 }
 
 .pub-abstract[open] summary::before {
-  content: "▾ ";
+  content: "▾";
 }
 
 .pub-abstract-body {
-  margin-top: 0.5rem;
-  padding: 0.9rem 1rem;
-  border: 1px solid #2a2a2a;
-  border-radius: 10px;
-  background: rgba(255,255,255,0.03);
+  padding: 0.25rem 0.25rem 0.75rem 0.25rem;
+  color: #d0d0d0;
+  line-height: 1.6;
 }
 
 .pub-abstract-body p {
-  margin: 0;
-  line-height: 1.55;
-  color: #d0d0d0;
+  margin: 0.4rem 0;
 }
-
 /* Image zoom modal */
 
 .img-modal {
