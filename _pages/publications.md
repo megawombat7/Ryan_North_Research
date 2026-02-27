@@ -26,14 +26,15 @@ permalink: /publications/
   </div>
 
   {% if pub.abstract and pub.abstract != "" %}
-    <a class="pub-abstract-toggle" data-toggle="collapse" href="#abs-{{ forloop.index }}" role="button" aria-expanded="false" aria-controls="abs-{{ forloop.index }}">
-      Abstract
-    </a>
-
-    <div class="collapse pub-abstract-body" id="abs-{{ forloop.index }}">
-      <p>{{ pub.abstract }}</p>
+<div markdown="0">
+  <details class="pub-abstract">
+    <summary>Abstract</summary>
+    <div class="pub-abstract-body">
+      {{ pub.abstract }}
     </div>
-  {% endif %}
+  </details>
+</div>
+{% endif %}
 </div>
 
 <div class="section-divider"></div>
