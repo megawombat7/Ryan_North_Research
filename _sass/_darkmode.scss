@@ -89,6 +89,63 @@ hr {
   text-decoration: underline;
 }
 
+/* -------- Publications -------- */
+
+.pub-item {
+  display: flex;
+  gap: 28px;
+  margin-bottom: 48px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid #e5e5e5;
+  align-items: flex-start;
+}
+
+.pub-thumb img {
+  width: 220px;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+  transition: transform 0.2s ease;
+}
+
+.pub-thumb img:hover {
+  transform: scale(1.03);
+}
+
+.pub-content {
+  flex: 1;
+}
+
+.pub-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.pub-title a {
+  text-decoration: none;
+}
+
+.pub-authors {
+  color: #444;
+  margin-bottom: 4px;
+}
+
+.pub-journal {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.pub-links {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.pub-abstract summary {
+  cursor: pointer;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
 /* Individual publication block */
 .pub-entry {
   margin: 1.4rem 0;
