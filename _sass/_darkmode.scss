@@ -54,7 +54,9 @@ hr {
   border-top: 1px solid #333;
 }
 
-/* Publications styling */
+/* ================================
+   Publications Styling (Clean Card Layout)
+================================ */
 
 .pub-list {
   list-style: none;
@@ -87,56 +89,68 @@ hr {
   text-decoration: underline;
 }
 
+/* Individual publication block */
 .pub-entry {
-  margin-bottom: 1.6em;
+  margin: 1.4rem 0;
 }
 
-/* Publications: collapsible abstracts */
-
-.pub-abstract {
-  margin-top: 0.8rem;
-  border: 1px solid rgba(255,255,255,0.08);
-  border-radius: 12px;
-  background: rgba(255,255,255,0.03);
-  padding: 0.2rem 0.75rem;
+/* Title */
+.pub-title {
+  margin-bottom: 0.25rem;
+  color: #ffffff;
+  font-weight: 600;
 }
 
-.pub-abstract summary {
-  cursor: pointer;
-  list-style: none; /* helps hide default marker in some browsers */
+/* Authors + journal line */
+.pub-meta {
+  color: #cfcfcf;
+  line-height: 1.55;
+}
+
+/* DOI / Links */
+.pub-links a {
+  color: #9ecbff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.pub-links a:hover {
+  color: #cfe6ff;
+  text-decoration: underline;
+}
+
+/* Clickable "Abstract" label */
+.pub-abstract-toggle {
+  display: inline-block;
+  margin-top: 0.55rem;
   color: #9ecbff;
   font-weight: 600;
-  padding: 0.55rem 0.25rem;
-  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.2s ease;
 }
 
-.pub-abstract summary:hover {
+.pub-abstract-toggle:hover {
   color: #cfe6ff;
+  text-decoration: none;
 }
 
-.pub-abstract summary::-webkit-details-marker {
-  display: none;
-}
-
-.pub-abstract summary::before {
-  content: "▸";
-  display: inline-block;
-  margin-right: 0.5rem;
-  transform: translateY(-1px);
-}
-
-.pub-abstract[open] summary::before {
-  content: "▾";
-}
-
+/* The expanding abstract box */
 .pub-abstract-body {
-  padding: 0.25rem 0.25rem 0.75rem 0.25rem;
+  margin-top: 0.75rem;
+  padding: 0.95rem 1.1rem;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.035);
   color: #d0d0d0;
   line-height: 1.6;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.25);
 }
 
-.pub-abstract-body p {
-  margin: 0.4rem 0;
+/* Subtle divider between papers */
+.section-divider {
+  border-top: 1px solid #2a2a2a;
+  margin: 1.4rem 0;
 }
 /* Image zoom modal */
 
