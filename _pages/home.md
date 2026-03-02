@@ -1,3 +1,10 @@
+---
+title: "Ryan North - Home"
+layout: textlay
+sitemap: false
+permalink: /
+---
+
 <div markdown="0">
 
 <style>
@@ -46,7 +53,6 @@
     filter:grayscale(100%);
   }
 
-  /* mobile */
   @media (max-width: 900px){
     .hero-banner img{ height:200px; }
     .home-wrap{
@@ -70,8 +76,8 @@
     <h1>Ryan North</h1>
 
     <p>
-      I’m a researcher interested in neuroskeletal biology — how peripheral nerves interface with bone, vasculature,
-      and immune microenvironments — and how these relationships evolve across vertebrate lineages.
+      I’m a researcher interested in neuroskeletal biology - how peripheral nerves interface with bone, vasculature,
+      and immune microenvironments - and how these relationships evolve across vertebrate lineages.
     </p>
 
     <p>
