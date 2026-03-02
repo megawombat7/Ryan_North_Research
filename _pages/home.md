@@ -5,13 +5,36 @@ sitemap: false
 permalink: /
 ---
 
-# Ryan North
+<div class="hero-banner">
+  <img src="/assets/home/banner_DNA_Mountains.png" alt="DNA Mountains Banner">
+</div>
 
-Howdy, welcome to my website!
-This site is a home for my work, writing, and ongoing projects.
+<div class="home-container">
 
-I also like to post things I stumble across that seem neat- be they science-related or otherwise!
+  <div class="home-text">
+    <h1>Ryan North</h1>
 
-Please feel free to drop me an email :)
+    <p>
+      I’m a researcher interested in neuroskeletal biology — how peripheral nerves
+      interface with bone, vasculature, and immune microenvironments — and how
+      these relationships evolve across vertebrate lineages.
+    </p>
 
-**Email:** ryanjamesnorth@gmail.com
+    <p>
+      This site is a home for my research, writing, and ongoing projects.
+    </p>
+
+    <p><strong>Email:</strong> ryanjamesnorth@gmail.com</p>
+
+    <p>
+      <a href="#">Google Scholar</a> ·
+      <a href="#">ORCID</a> ·
+      <a href="#">GitHub</a>
+    </p>
+  </div>
+
+  <div class="home-photo">
+    <img src="/assets/home/Ryan_photo.jpg" alt="Ryan North">
+  </div>
+
+</div>
