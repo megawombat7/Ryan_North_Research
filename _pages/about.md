@@ -96,11 +96,11 @@ permalink: /about/
   <h2>Personal</h2>
 
 <p>
-I’m originally from Wisconsin, where I did my undergrad at the University of Wisconsin–Madison, majoring in Evolutionary Biology, Zoology, and Anthropology, with a minor in Archaeology. I’ve always liked understanding how systems work — whether that’s ecosystems, bones, or old human tools buried in the ground.
+I’m originally from Wisconsin, where I did my undergrad at the University of Wisconsin–Madison, majoring in Evolutionary Biology, Zoology, and Anthropology, with a minor in Archaeology. I always thought I would end up studying early hominids, but seemingly by chance I stumbled my way into cell and molecular research.
 </p>
 
 <p>
-I grew up hunting and fishing, and most of my favorite memories involve cold mornings, rivers, and woods that smell like pine and wet leaves. That love of being outside has stuck with me. It’s part of how I think — a lot of my best ideas have come while hiking, fishing, or just wandering around somewhere quiet.
+I grew up hunting and fishing, and I have so many fond memories of exploring the driftless area when I was younger. That love of being outside has stuck with me. It’s part of how I think. Secretly I might be trying to center my whole life around my ability to go play outside- even as an adult.
 </p>
 
 <p>
@@ -108,7 +108,7 @@ I moved to Montana to complete my master’s degree at Montana State University,
 </p>
 
 <p>
-Soon, I’ll be heading to Idaho to begin medical school — excited to carry forward both the scientific side of my life and the human one.
+Soon, I’ll be heading to Idaho to begin medical school-  excited to carry forward both the scientific side of my life and the human one.
 </p>
 
   <div class="about-grid">
@@ -120,23 +120,28 @@ Soon, I’ll be heading to Idaho to begin medical school — excited to carry fo
   <h2>Research</h2>
 
 <p>
-My research path has been anything but linear — and I’m glad for that.
+My research path has taken me through a wide variety of topics- from archaeology and ecology to neurodevelopment and stem cell biology!
 </p>
 
 <p>
-I started in high school working with the Wisconsin DNR doing population surveys and live captures of porcupines at the Sandhill Wildlife Refuge. That experience grounded me in field biology — early mornings, careful measurements, real animals, real data.
+I started in high school working with the Wisconsin DNR doing population surveys and live captures of porcupines at the Sandhill Wildlife Refuge. A few early mornings, careful measurements, and very cool animals.
 </p>
 
 <p>
-In college, I continued that thread as an undergraduate researcher in the Brunet Lab in partnership with USDA-ARS, studying how pollinators influence gene flow in crop species like alfalfa. It was my first exposure to asking mechanistic questions at scale — and to seeing how evolutionary principles play out in agriculture and ecology.
+In college, I continued that thread as an undergraduate researcher in the Brunet Lab in partnership with USDA-ARS, studying how pollinators influence gene flow in crop species like alfalfa. My heart goes out to seasonal researchers in undergrad because that is both a very cool time of life and a very tiring one.
 </p>
 
 <p>
-Eventually, I found my way into biomedical research at the Wisconsin Institute for Medical Research in the Cellular and Molecular Arrhythmia Research Program. I spent three years working with Ruben Alexanian, M.D., and Matt Wolff, M.D., on two major projects — one focused on differentiating iPSCs into valve interstitial cells using porcine valve-derived media, and the other modeling LMNA-associated dilated cardiomyopathy using a patient-derived stem cell line alongside novel peptide development.
+Eventually, I found my way into biomedical research at the Wisconsin Institute for Medical Research in the Cellular and Molecular Arrhythmia Research Program. I spent three years working with Ruben Alexanian, M.D., and Matt Wolff, M.D., on two major projects: one focused on differentiating iPSCs into valve interstitial cells using porcine valve-derived media, and the other modeling LMNA-associated dilated cardiomyopathy using a patient-derived stem cell line alongside novel peptide development.
 </p>
 
 <p>
-That period shaped me deeply. I learned a full suite of molecular and cellular techniques, presented posters and talks, wrote grants, and began thinking seriously about translational science.
+That period shaped me deeply. I learned a full suite of molecular and cellular techniques, presented posters and talks, helped to write grants, and began thinking seriously about translational science.
+</p>
+
+<p>
+After graduating, I began working with Dr. Chris Organ Ph.D. in the Deep Time Biology Lab working on a comparative vertebrate innervation project. It was kind of a return to my undergraduate interests, as I was now surrounded by paleontology people- all of whom are tremendous.
+I even got my own office here haha.
 </p>
 
 <p>
@@ -144,7 +149,7 @@ I later completed a master’s degree focused on RNA sequencing in a development
 </p>
 
 <p>
-Across all of it — field ecology, stem cell biology, developmental transcriptomics — the common thread has been curiosity about mechanisms. I’m drawn to problems where the “obvious” model system isn’t the whole story, and where careful comparative thinking opens something new.
+Across it all, I have always been interested in cellular and molecular mechanisms, the human condition, and the deep fascinating stories that science can tell us.
 </p>
 
   <h2>Professional development</h2>
