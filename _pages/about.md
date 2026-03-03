@@ -110,7 +110,6 @@ I moved to Montana to complete my master’s degree at Montana State University,
 <p>
 Soon, I’ll be heading to Idaho to begin medical school — excited to carry forward both the scientific side of my life and the human one.
 </p>
-  </p>
 
   <div class="about-grid">
     <img src="{{ '/assets/about/me_mountain.jpg' | relative_url }}" alt="Ryan in the mountains">
@@ -147,7 +146,6 @@ I later completed a master’s degree focused on RNA sequencing in a development
 <p>
 Across all of it — field ecology, stem cell biology, developmental transcriptomics — the common thread has been curiosity about mechanisms. I’m drawn to problems where the “obvious” model system isn’t the whole story, and where careful comparative thinking opens something new.
 </p>
-  </p>
 
   <h2>Professional development</h2>
   <p>
