@@ -431,3 +431,9 @@ hr {
 .hero-banner img {
   pointer-events: none;
 }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #000;   /* black side gutters */
+}
