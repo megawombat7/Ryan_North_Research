@@ -94,8 +94,6 @@ permalink: /about/
 <div class="about-section">
 
   <h2>Personal</h2>
-  <p>
-  <h2>Research</h2>
 
 <p>
 I’m originally from Wisconsin, where I did my undergrad at the University of Wisconsin–Madison, majoring in Evolutionary Biology, Zoology, and Anthropology, with a minor in Archaeology. I’ve always liked understanding how systems work — whether that’s ecosystems, bones, or old human tools buried in the ground.
@@ -121,8 +119,6 @@ Soon, I’ll be heading to Idaho to begin medical school — excited to carry fo
   </div>
 
   <h2>Research</h2>
-  <p>
-  <h2>Professional development</h2>
 
 <p>
 My research path has been anything but linear — and I’m glad for that.
