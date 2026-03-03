@@ -114,12 +114,8 @@ permalink: /
     <h1>Ryan North</h1>
 
     <p>
-      I’m a researcher interested in neuroskeletal biology - how peripheral nerves interface with bone, vasculature,
-      and immune microenvironments - and how these relationships evolve across vertebrate lineages.
-    </p>
-
-    <p>
-      This site is a home for my research, writing, and ongoing projects.
+      Howdy, welcome to my website- home to my research, interests, projects, and interesting stuff! Please feel free to contact me via my email below.
+      
     </p>
 
     <p><strong>Email:</strong> ryanjamesnorth@gmail.com</p>
