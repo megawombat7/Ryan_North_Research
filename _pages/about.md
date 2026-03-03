@@ -4,16 +4,116 @@ layout: textlay
 permalink: /about/
 ---
 
-# About me
+<div markdown="0">
 
-I’m Ryan North, a researcher with a background in evolutionary biology, zoology, and anthropology, and I’m currently focused on questions at the intersection of neuroscience and the skeleton.
+<style>
+  /* Header block with photo + title */
+  .about-hero{
+    max-width: 1100px;
+    margin: 10px auto 30px auto;
+    display: flex;
+    gap: 28px;
+    align-items: center;
+    padding: 0 20px;
+  }
+  .about-hero img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 16px;
+    box-shadow: 0 10px 28px rgba(0,0,0,0.35);
+  }
+  .about-hero h1{
+    margin: 0;
+    font-size: 3.0rem;
+    font-weight: 650;
+    letter-spacing: 0.2px;
+  }
 
-What I keep coming back to is a simple idea: bone is not just structural. It’s metabolically active, densely vascularized, and intimately connected to peripheral nerves - yet we still have an incomplete picture of what those nerves are doing, how they are organized, and how much of that story changes across vertebrates. My core interest is building that picture in a way that is mechanistic enough to be useful in medicine, but broad enough to be meaningful evolutionarily.
+  /* Section layout */
+  .about-section{
+    max-width: 1100px;
+    margin: 0 auto 34px auto;
+    padding: 0 20px;
+  }
+  .about-section h2{
+    margin: 26px 0 12px 0;
+    font-size: 1.9rem;
+    font-weight: 650;
+  }
+  .about-section p{
+    font-size: 1.12rem;
+    line-height: 1.75;
+    color: rgba(255,255,255,0.86);
+    margin: 0 0 14px 0;
+  }
 
-A lot of my recent work has been synthesis-driven: mapping what is known about skeletal innervation in mammals, and then turning to the huge comparative blind spots in birds, reptiles, amphibians, and fishes. Those gaps aren’t just “missing data” - they shape what kinds of hypotheses we’re even able to ask. I’m especially interested in places where the biology looks different on purpose: systems under extreme mechanical loading, clades with unusual bone microstructure, and animals that regenerate skeletal tissues in nerve-dependent ways.
+  /* Image grid for personal section */
+  .about-grid{
+    display: grid;
+    grid-template-columns: 1.25fr 1fr 1fr;
+    gap: 16px;
+    margin: 14px 0 10px 0;
+  }
+  .about-grid img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 14px;
+    box-shadow: 0 10px 26px rgba(0,0,0,0.28);
+    display: block;
+  }
 
-In parallel, I’ve spent a lot of time using transcriptomics to understand how early developmental exposures can leave persistent signatures in gene expression after the exposure has stopped. That work has pushed me to think more carefully about time, dose, and non-linear response - and about how we connect molecular signatures to cell-level mechanisms and organism-level phenotypes.
+  /* Make it responsive */
+  @media (max-width: 900px){
+    .about-hero{
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .about-hero img{
+      width: 130px;
+      height: 130px;
+    }
+    .about-hero h1{
+      font-size: 2.4rem;
+    }
+    .about-grid{
+      grid-template-columns: 1fr;
+    }
+    .about-grid img{
+      height: 240px;
+    }
+  }
+</style>
 
-If you want the shortest summary of what I do: I like combining hard-nosed mechanism with broad comparative framing, and I’m drawn to problems where the “obvious” system (usually mouse/human) is only one small corner of what biology is capable of doing.
+<div class="about-hero">
+  <img src="{{ '/assets/about/me_chillin.jpg' | relative_url }}" alt="Ryan relaxing">
+  <h1>About</h1>
+</div>
 
-**Email:** ryanjamesnorth@gmail.com
+<div class="about-section">
+
+  <h2>Personal</h2>
+  <p>
+    insert text here
+  </p>
+
+  <div class="about-grid">
+    <img src="{{ '/assets/about/me_mountain.jpg' | relative_url }}" alt="Ryan in the mountains">
+    <img src="{{ '/assets/about/montana.jpg' | relative_url }}" alt="Montana landscape">
+    <img src="{{ '/assets/about/montana_2.jpg' | relative_url }}" alt="Montana landscape 2">
+  </div>
+
+  <h2>Research</h2>
+  <p>
+    insert text here
+  </p>
+
+  <h2>Professional development</h2>
+  <p>
+    insert text here
+  </p>
+
+</div>
+
+</div>
