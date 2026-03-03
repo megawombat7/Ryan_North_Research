@@ -106,12 +106,30 @@ permalink: /about/
 
   <h2>Research</h2>
   <p>
-    insert text here
+    I’m originally from Wisconsin, where I did my undergrad at the University of Wisconsin–Madison, majoring in Evolutionary Biology, Zoology, and Anthropology, with a minor in Archaeology. I’ve always liked understanding how systems work — whether that’s ecosystems, bones, or old human tools buried in the ground.
+
+I grew up hunting and fishing, and most of my favorite memories involve cold mornings, rivers, and woods that smell like pine and wet leaves. That love of being outside has stuck with me. It’s part of how I think — a lot of my best ideas have come while hiking, fishing, or just wandering around somewhere quiet.
+
+I moved to Montana to complete my master’s degree at Montana State University, and quickly realized it felt like home. I spend as much time as possible in the mountains and on rivers, and I’m deeply grateful that my work and my life have intersected in a place that values both wild landscapes and scientific curiosity.
+
+Soon, I’ll be heading to Idaho to begin medical school — excited to carry forward both the scientific side of my life and the human one.
   </p>
 
   <h2>Professional development</h2>
   <p>
-    insert text here
+   My research path has been anything but linear — and I’m glad for that.
+
+I started in high school working with the Wisconsin DNR doing population surveys and live captures of porcupines at the Sandhill Wildlife Refuge. That experience grounded me in field biology — early mornings, careful measurements, real animals, real data.
+
+In college, I continued that thread as an undergraduate researcher in the Brunet Lab in partnership with USDA-ARS, studying how pollinators influence gene flow in crop species like alfalfa. It was my first exposure to asking mechanistic questions at scale — and to seeing how evolutionary principles play out in agriculture and ecology.
+
+Eventually, I found my way into biomedical research at the Wisconsin Institute for Medical Research in the Cellular and Molecular Arrhythmia Research Program. I spent three years working with Ruben Alexanian, M.D., and Matt Wolff, M.D., on two major projects. One focused on developing a novel method to differentiate induced pluripotent stem cells into valve interstitial cells using media derived from native porcine aortic valve leaflets. The other involved modeling LMNA-associated dilated cardiomyopathy using a patient-derived stem cell line, alongside developing novel peptides aimed at ameliorating the disease phenotype.
+
+That period shaped me deeply. I learned a full suite of molecular and cellular techniques, presented posters and talks, wrote grants, and started thinking seriously about translational science.
+
+I later completed a master’s degree focused on RNA sequencing in a developmental toxicology context. In the Merzdorf Lab at Montana State, I studied how pharmaceutical exposures — including fentanyl, oxycodone, and citalopram — alter the transcriptome during early development in zebrafish embryos. I collaborated closely with Dr. Brian Bothner, Ph.D., and Dr. Mensur Dlakic, Ph.D., integrating transcriptomics, molecular biology, and bioinformatics.
+
+Across all of it — field ecology, stem cell biology, developmental transcriptomics — the common thread has been curiosity about mechanisms. I’m drawn to problems where the “obvious” model system isn’t the whole story, and where careful comparative thinking opens up something new.
   </p>
 
 </div>
