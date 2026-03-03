@@ -414,3 +414,20 @@ hr {
   border-radius: 8px;
   filter: grayscale(100%);
 }
+
+/* Make sure the navbar is ALWAYS above page content */
+.navbar, .navbar-fixed-top, .site-header, header {
+  position: relative;
+  z-index: 9999;
+}
+
+/* Ensure hero/banner sections don't float above the navbar */
+.hero-banner, .about-hero {
+  position: relative;
+  z-index: 1;
+}
+
+/* If the banner image itself is catching taps, disable pointer events */
+.hero-banner img {
+  pointer-events: none;
+}
