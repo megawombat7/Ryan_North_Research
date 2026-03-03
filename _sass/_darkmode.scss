@@ -305,13 +305,69 @@ hr {
 }
 
 /* breakpoints */
-@media (max-width: 992px) {
-  .gallery-item { grid-column: span 6; } /* 2 per row */
-  .gallery-item img { height: 230px; }
+@media (max-width: 900px){
+  .about-hero{
+    flex-direction: row;
+    align-items: center;
+    gap: 18px;
+    margin: 6px auto 18px auto;
+  }
+
+  .about-hero img{
+    width: 96px;
+    height: 96px;
+    border-radius: 14px;
+  }
+
+  .about-hero h1{
+    font-size: 2.2rem;
+  }
+
+  .about-section{
+    margin: 0 auto 42px auto;
+    padding: 0 16px;
+  }
+
+  .about-section h2{
+    font-size: 1.6rem;
+    margin: 22px 0 10px 0;
+  }
+
+  .about-section p{
+    font-size: 1.10rem;
+    line-height: 1.85;
+    margin: 0 0 18px 0;
+  }
+
+  /* 3-up grid becomes 2-up on mobile */
+  .about-grid{
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+
+  .about-grid img{
+    height: 170px;
+  }
 }
-@media (max-width: 576px) {
-  .gallery-item { grid-column: span 12; } /* 1 per row */
-  .gallery-item img { height: 240px; }
+
+/* Very small phones: stack images 1-up */
+@media (max-width: 520px){
+  .about-hero{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .about-hero h1{
+    font-size: 2.0rem;
+  }
+
+  .about-grid{
+    grid-template-columns: 1fr;
+  }
+
+  .about-grid img{
+    height: 210px;
+  }
 }
 
 /* Banner */
