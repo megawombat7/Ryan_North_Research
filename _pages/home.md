@@ -10,58 +10,90 @@ permalink: /
 <style>
   .hero-banner img{
     width:100%;
-    height:260px;
+    height:280px;
     object-fit:cover;
     display:block;
-    border-radius:10px;
+    border-radius:14px;
+    box-shadow: 0 12px 34px rgba(0,0,0,0.35);
   }
+
   .home-wrap{
-    max-width:1100px;
-    margin:40px auto 0 auto;
+    max-width:1150px;
+    margin:46px auto 0 auto;
     display:flex;
-    gap:48px;
-    align-items:flex-start;
-    padding:0 20px;
+    gap:56px;
+    align-items:center;
+    padding:0 24px;
   }
+
+  /* LEFT = photo */
+  .home-right{
+    flex:0 0 320px;
+    display:flex;
+    justify-content:flex-start;
+  }
+  .home-right img{
+    width:320px;
+    height:auto;
+    border-radius:16px;
+    display:block;
+    filter:none;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+  }
+
+  /* RIGHT = text */
   .home-left{
-    flex:2;
+    flex:1;
+    max-width:680px;
   }
   .home-left h1{
-    margin:0 0 14px 0;
-    font-size:2.4rem;
-    font-weight:600;
+    margin:0 0 16px 0;
+    font-size:3.0rem;
+    font-weight:650;
+    letter-spacing:0.2px;
   }
   .home-left p{
-    line-height:1.65;
-    font-size:1.05rem;
-    margin:0 0 14px 0;
+    line-height:1.75;
+    font-size:1.18rem;
+    margin:0 0 18px 0;
+    color: rgba(255,255,255,0.86);
+  }
+  .home-left strong{
+    color: rgba(255,255,255,0.95);
+  }
+
+  .home-links{
+    margin-top:10px;
+    font-size:1.08rem;
   }
   .home-links a{
     text-decoration:none;
-    margin-right:10px;
+    margin-right:12px;
+    padding:6px 10px;
+    border-radius:10px;
+    background: rgba(255,255,255,0.06);
+    display:inline-block;
   }
-  .home-right{
-    flex:1;
-    display:flex;
-    justify-content:flex-end;
-  }
-  .home-right img{
-    width:100%;
-    max-width:280px;
-    border-radius:12px;
-    display:block;
-    filter:grayscale(100%);
+  .home-links a:hover{
+    background: rgba(255,255,255,0.12);
   }
 
-  @media (max-width: 900px){
-    .hero-banner img{ height:200px; }
+  /* mobile */
+  @media (max-width: 950px){
+    .hero-banner img{ height:210px; }
     .home-wrap{
       flex-direction:column;
       align-items:flex-start;
+      gap:24px;
     }
-    .home-right{
-      justify-content:flex-start;
-      margin-top:12px;
+    .home-right img{
+      width:260px;
+    }
+    .home-left h1{
+      font-size:2.4rem;
+    }
+    .home-left p{
+      font-size:1.08rem;
     }
   }
 </style>
@@ -72,6 +104,12 @@ permalink: /
 
 <div class="home-wrap">
 
+  <!-- LEFT SIDE: PHOTO -->
+  <div class="home-right">
+    <img src="{{ '/assets/home/Ryan_photo.jpg' | relative_url }}" alt="Ryan North">
+  </div>
+
+  <!-- RIGHT SIDE: TEXT -->
   <div class="home-left">
     <h1>Ryan North</h1>
 
@@ -87,14 +125,10 @@ permalink: /
     <p><strong>Email:</strong> ryanjamesnorth@gmail.com</p>
 
     <p class="home-links">
-      <a href="#" target="_blank" rel="noopener">Google Scholar</a> ·
-      <a href="#" target="_blank" rel="noopener">ORCID</a> ·
+      <a href="#" target="_blank" rel="noopener">Google Scholar</a>
+      <a href="#" target="_blank" rel="noopener">ORCID</a>
       <a href="#" target="_blank" rel="noopener">GitHub</a>
     </p>
-  </div>
-
-  <div class="home-right">
-    <img src="{{ '/assets/home/Ryan_photo.jpg' | relative_url }}" alt="Ryan North">
   </div>
 
 </div>
