@@ -39,7 +39,7 @@ permalink: /fishing/
 {% comment %} ---------- RIVERS ---------- {% endcomment %}
 <section class="gallery-section">
   <h2>Rivers</h2>
-  <p class="section-subtitle">I gravitate toward rivers most — reading seams, covering miles of water, and chasing trout in constantly changing conditions.</p>
+  <p class="section-subtitle">I most enjoy rivers and mountain streams. I think the slow process of reading seams, covering miles of water, and chasing trout in fun places makes for the best fishing.</p>
 
   {% assign river_imgs = site.static_files | where_exp: "f", "f.path contains '/assets/fishing/Rivers/'" %}
   {% assign river_imgs = river_imgs | where_exp: "f", "exts contains f.extname" %}
@@ -59,7 +59,7 @@ permalink: /fishing/
 {% comment %} ---------- LAKES ---------- {% endcomment %}
 <section class="gallery-section">
   <h2>Lakes</h2>
-  <p class="section-subtitle">Stillwater fishing brings a slower pace — long casts, clear water, and incredible alpine settings.</p>
+  <p class="section-subtitle">Stillwater fishing brings a slower pace, and also some real pain haha. It might be I struggle to get casts out as far as I need to, but I still love it.</p>
 
   {% assign lake_imgs = site.static_files | where_exp: "f", "f.path contains '/assets/fishing/Lakes/'" %}
   {% assign lake_imgs = lake_imgs | where_exp: "f", "exts contains f.extname" %}
@@ -79,7 +79,7 @@ permalink: /fishing/
 {% comment %} ---------- ICE FISHING ---------- {% endcomment %}
 <section class="gallery-section">
   <h2>Ice Fishing</h2>
-  <p class="section-subtitle">When winter sets in, the fishing just changes format — quieter, colder, and just as rewarding.</p>
+  <p class="section-subtitle">When winter sets in, the fishing gets really fun!</p>
 
   {% assign ice_imgs = site.static_files | where_exp: "f", "f.path contains '/assets/fishing/ice_fishing/'" %}
   {% assign ice_imgs = ice_imgs | where_exp: "f", "exts contains f.extname" %}
